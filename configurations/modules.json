@@ -1,0 +1,9 @@
+{
+    "modules":
+	{
+		"home":	          {"url":"modules/task/home.html","name_for_search":"Home page"},
+		"about":	      {"url":"modules/task/about.html","name_for_search":"About"},
+		"services":	      {"url":"modules/task/services.html","name_for_search":"Services"},
+		"portfolio":	  {"url":"modules/task/portfolio.html","name_for_search":"Portfolio"}
+	}
+}
