@@ -3,15 +3,16 @@
 		<div class="text-center">
 		  <h1>Modular Distributed Web Applications</h1>
 	  	  <hr style='border-top:1px solid #f05f40;'></hr>
-	  	  <p>We can build a web application with unlimited number of shared reusable modules distributed on different static web servers around the world and maintained by different people with different skills!</p>
+	  	  <p>A web application with unlimited number of shared reusable modules distributed on different static web servers around the world and maintained by different people with different skills!</p>
 		  <br>
-		  <a target=_blank href=https://github.com/vmiis>https://github.com/vmiis</a>
 		  <br><br>
 		</div>
 	</div>
 </div>
 <script>
 	function F__ID(){
+        var color=$vm.module_list[$vm.vm['__ID'].name].color;
+        if(color!=undefined) $('#D__ID').css('color',color);
 	}
 </script>
 <style>
@@ -24,6 +25,5 @@
 		height:100%;
 		display: flex;
 		align-items: center;
-		color:#163822;
 	}
 </style>
